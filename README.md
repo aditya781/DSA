@@ -10,6 +10,8 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
 | Loop in LL | Fast and slow pointer | [Leetcode](https://leetcode.com/problems/linked-list-cycle/description/) |
+| Position of Loop in LL | Tortoise & Hair algorithm, Fast and slow pointer | [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/description/) |
+
 
 ### 🟣 Stack
 | Pattern | Description | Link |
