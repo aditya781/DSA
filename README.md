@@ -9,7 +9,7 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 ### 🟣 Stack
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Maximal Reactangle in 2d array | Prefis sum + monotonic stack in histogram | [Leetcode](https://leetcode.com/problems/maximal-rectangle/description/?envType=daily-question&envId=2026-01-11) |
+| Maximal Reactangle in 2d array | Use prefix sum,  monotonic stack in histogram | [Leetcode](https://leetcode.com/problems/maximal-rectangle/description/?envType=daily-question&envId=2026-01-11) |
 
 
 ### 🟠 DP
