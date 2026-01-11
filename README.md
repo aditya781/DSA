@@ -6,6 +6,11 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 
 ## 📂 Patterns by Topic
 
+### ⚪ Stack
+| Pattern | Description | Link |
+| :--- | :--- | :---: |
+| Loop in LL | Fast and slow pointer | [Leetcode](https://leetcode.com/problems/linked-list-cycle/description/) |
+
 ### 🟣 Stack
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
