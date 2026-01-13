@@ -9,7 +9,7 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 ### 🟠 Binary Search
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Saperate Sqaure 1 | Critical Binary search | [Leetcode](https://leetcode.com/problems/separate-squares-i/description/?envType=daily-question&envId=2026-01-13) |
+| Saperate Sqaure 1 | Critical Binary search on the area| [Leetcode](https://leetcode.com/problems/separate-squares-i/description/?envType=daily-question&envId=2026-01-13) |
 
 
 ### ⚪ Stack
