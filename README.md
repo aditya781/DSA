@@ -6,13 +6,19 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 
 ## 📂 Patterns by Topic
 
+### 🟣 Math
+| Pattern | Description | Link |
+| :--- | :--- | :---: |
+| Rectangle Area | Inclusion-Exclusion Principle for finding overlapping Area| [Leetcode](https://leetcode.com/problems/rectangle-area/description/) |
+
+
 ### 🟠 Binary Search
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
 | Saperate Sqaure 1 | Critical Binary search on the area| [Leetcode](https://leetcode.com/problems/separate-squares-i/description/?envType=daily-question&envId=2026-01-13) |
 
 
-### ⚪ Stack
+### ⚪ Linked List
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
 | Loop in LL | Fast and slow pointer | [Leetcode](https://leetcode.com/problems/linked-list-cycle/description/) |
