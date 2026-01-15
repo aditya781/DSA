@@ -46,4 +46,9 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | Range Sum | Segment Tree| [Leetcode](https://leetcode.com/problems/range-sum-query-immutable/) |
 
 
+### 🟣 Graph
+| Pattern | Description | Link |
+| :--- | :--- | :---: |
+| Rotten Oranges | BFS, thinking is correct, try to use it properly | [Leetcode](https://leetcode.com/problems/rotting-oranges/description/) |
+
 ---
