@@ -11,7 +11,7 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | :--- | :--- | :---: |
 | Rectangle Area | Inclusion-Exclusion Principle for finding overlapping Area| [Leetcode](https://leetcode.com/problems/rectangle-area/description/) |
 | Max Square Area |  Sorting, Longest Consecutive Sequence Pattern| [Leetcode](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/?envType=daily-question&envId=2026-01-15) |
-
+| Longest Mountain | Two pointer, Dont use For loop , think for while loop and step wise solving| [Leetcode](https://leetcode.com/problems/longest-mountain-in-array/) |
 
 ### 🟠 Binary Search
 | Pattern | Description | Link |
