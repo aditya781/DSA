@@ -10,6 +10,7 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
 | Rectangle Area | Inclusion-Exclusion Principle for finding overlapping Area| [Leetcode](https://leetcode.com/problems/rectangle-area/description/) |
+| Max Square Area |  Sorting, Longest Consecutive Sequence Pattern| [Leetcode](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/?envType=daily-question&envId=2026-01-15) |
 
 
 ### 🟠 Binary Search
