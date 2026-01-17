@@ -6,6 +6,12 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 
 ## 📂 Patterns by Topic
 
+### 🔵 HashTabe
+| Pattern | Description | Link |
+| :--- | :--- | :---: |
+| Maxium Square Area | Find all combinations of width in n^2, and use hashtable | [Leetcode](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/description/?envType=daily-question&envId=2026-01-16) |
+
+
 ### 🟣 Math
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
