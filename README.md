@@ -6,18 +6,19 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 
 ## 📂 Patterns by Topic
 
-### 🔵 HashTabe
-| Pattern | Description | Link |
-| :--- | :--- | :---: |
-| Maxium Square Area | Find all combinations of width in n^2, and use hashtable | [Leetcode](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/description/?envType=daily-question&envId=2026-01-16) |
-
-
 ### 🟣 Math
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
 | Rectangle Area | Inclusion-Exclusion Principle for finding overlapping Area| [Leetcode](https://leetcode.com/problems/rectangle-area/description/) |
 | Max Square Area |  Sorting, Longest Consecutive Sequence Pattern| [Leetcode](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/?envType=daily-question&envId=2026-01-15) |
 | Longest Mountain | Two pointer, Dont use For loop , think for while loop and step wise solving| [Leetcode](https://leetcode.com/problems/longest-mountain-in-array/) |
+
+
+### 🔵 HashTabe
+| Pattern | Description | Link |
+| :--- | :--- | :---: |
+| Maxium Square Area | Find all combinations of width in n^2, and use hashtable | [Leetcode](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/description/?envType=daily-question&envId=2026-01-16) |
+
 
 ### 🟠 Binary Search
 | Pattern | Description | Link |
