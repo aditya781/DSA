@@ -13,6 +13,11 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | Max Square Area |  Sorting, Longest Consecutive Sequence Pattern| [Leetcode](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/?envType=daily-question&envId=2026-01-15) |
 | Longest Mountain | Two pointer, Dont use For loop , think for while loop and step wise solving| [Leetcode](https://leetcode.com/problems/longest-mountain-in-array/) |
 
+### ⚪  Bitwise Operations
+| Pattern | Description | Link |
+| :--- | :--- | :---: |
+| Min bitwise arr | find the pattern, look at how binary addition workds | [Leetcode](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/description/?envType=daily-question&envId=2026-01-20) |
+
 
 ### 🔵 HashTabe
 | Pattern | Description | Link |
