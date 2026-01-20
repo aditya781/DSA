@@ -55,7 +55,7 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
 | LCA | Least Common ancestor BFS - upwords nodes conversion using set and map| [Leetcode](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/?envType=daily-question&envId=2026-01-09) |
-| Range Sum | Segment Tree| [Leetcode](https://leetcode.com/problems/range-sum-query-immutable/) |
+| Range Sum | Segment Tree(4n nodes always)| [Leetcode](https://leetcode.com/problems/range-sum-query-immutable/) |
 
 
 ### 🟣 Graph
