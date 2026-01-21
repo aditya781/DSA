@@ -13,6 +13,14 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | Max Square Area |  Sorting, Longest Consecutive Sequence Pattern| [Leetcode](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/?envType=daily-question&envId=2026-01-15) |
 | Longest Mountain | Two pointer, Dont use For loop , think for while loop and step wise solving| [Leetcode](https://leetcode.com/problems/longest-mountain-in-array/) |
 
+###  🟠 Sorting
+| Pattern | Description | Link |
+| :--- | :--- | :---: |
+| Selection sort | (Stable) Relative order not maintained | [Leetcode](https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/) |
+| Bubble sort | Relative order is maintained | [Leetcode](https://www.geeksforgeeks.org/dsa/bubble-sort-algorithm/) |
+| Insertion sort | Stable and in-place algo | [Leetcode](https://www.geeksforgeeks.org/dsa/insertion-sort-algorithm/) |
+
+
 ### ⚪  Bitwise Operations
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
