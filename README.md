@@ -1,6 +1,6 @@
 # 🧠 DSA Patterns
 
-A structured collection of common algorithmic patterns grouped by topic. Click on "View Details" to see the explanation, complexity, and code template .
+A structured collection of common algorithmic patterns grouped by topic. Click on "View Details" to see the explanation, complexity, and code template.
 
 ---
 
