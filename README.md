@@ -19,6 +19,7 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | Selection sort | (Stable) Relative order not maintained | [Gfg](https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/) |
 | Bubble sort  | Relative order is maintained | [Gfg](https://www.geeksforgeeks.org/dsa/bubble-sort-algorithm/) |
 | Insertion sort | Stable and in-place algo | [Gfg](https://www.geeksforgeeks.org/dsa/insertion-sort-algorithm/) |
+| Counting sort | Non comparative algorithm | [Leetcode](https://leetcode.com/problems/minimum-absolute-difference/?envType=daily-question&envId=2026-01-26) |
 
 
 ### ⚪  Bitwise Operations
