@@ -16,9 +16,9 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 ###  🟠 Sorting
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Selection sort | (Stable) Relative order not maintained | [Leetcode](https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/) |
-| Bubble sort  | Relative order is maintained | [Leetcode](https://www.geeksforgeeks.org/dsa/bubble-sort-algorithm/) |
-| Insertion sort | Stable and in-place algo | [Leetcode](https://www.geeksforgeeks.org/dsa/insertion-sort-algorithm/) |
+| Selection sort | (Stable) Relative order not maintained | [Gfg](https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/) |
+| Bubble sort  | Relative order is maintained | [Gfg](https://www.geeksforgeeks.org/dsa/bubble-sort-algorithm/) |
+| Insertion sort | Stable and in-place algo | [Gfg](https://www.geeksforgeeks.org/dsa/insertion-sort-algorithm/) |
 
 
 ### ⚪  Bitwise Operations
