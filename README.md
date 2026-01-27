@@ -77,5 +77,6 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | :--- | :--- | :---: |
 | Rotten Oranges | BFS, thinking is correct, try to use it properly | [Leetcode](https://leetcode.com/problems/rotting-oranges/description/) |
 | 01 Matrix | BFS, array storing {0, 1, 0, -1, 0}, Multi-Source approach, if Min distance , use BFS, alwys try to check if we can start from source or destination at a time | [Leetcode](https://leetcode.com/problems/01-matrix/description/) |
+| Topological Sort | only in DAG, use stack  | [Gfg](https://www.geeksforgeeks.org/dsa/topological-sorting/) |
 
 ---
