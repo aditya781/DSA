@@ -79,5 +79,6 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | 01 Matrix | BFS, array storing {0, 1, 0, -1, 0}, Multi-Source approach, if Min distance , use BFS, alwys try to check if we can start from source or destination at a time | [Leetcode](https://leetcode.com/problems/01-matrix/description/) |
 | Topological Sort | only in DAG, use stack  | [Gfg](https://www.geeksforgeeks.org/dsa/topological-sorting/) |
 | Shortage path in DAG | first use topo sort and then find shortest path  | [Gfg](https://www.geeksforgeeks.org/dsa/shortest-path-for-directed-acyclic-graphs/) |
+| Dijkstras | first use topo sort and then find shortest path  | [Gfg](https://www.geeksforgeeks.org/dsa/shortest-path-for-directed-acyclic-graphs/) |
 
 ---
