@@ -34,6 +34,12 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 | Maxium Square Area | Find all combinations of width in n^2, and use hashtable | [Leetcode](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/description/?envType=daily-question&envId=2026-01-16) |
 
 
+### 🟣 Set / Multiset
+| Pattern | Description | Link |
+| :--- | :--- | :---: |
+| Divide array into subarray | multiset | [Leetcode](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/?envType=daily-question&envId=2026-02-02) |
+
+
 ### 🟠 Binary Search
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
