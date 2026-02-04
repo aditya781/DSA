@@ -1,6 +1,14 @@
 # 🧠 DSA Patterns
 
-A structured collection of common algorithmic patterns grouped by topic. Click on "View Details" to see the explanation, complexity, and code template.
+A structured collection of common algorithmic patterns grouped by topic. Use this as a reference for complexity limits and problem-solving mental models.
+
+---
+
+## ⚡ System Constraint Rule of Thumb
+> **The $10^8$ Rule:** Most modern systems/judges allow for roughly  100 million CPU operations per second. So, $10^8$ will take 1 second to execute, $10^9$ will take 10 seconds and keeps on increasing exponantially. 
+> * If $N \leq 500 \rightarrow O(N^3)$ is usually fine ($500^3 \approx 1.25 \times 10^8$).
+> * If $N \leq 10^4 \rightarrow O(N^2)$ is the limit.
+> * If $N \leq 10^6 \rightarrow O(N \log N)$ or $O(N)$ is required.
 
 ---
 
@@ -9,82 +17,66 @@ A structured collection of common algorithmic patterns grouped by topic. Click o
 ### 🟣 Math
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Rectangle Area | Inclusion-Exclusion Principle for finding overlapping Area| [Leetcode](https://leetcode.com/problems/rectangle-area/description/) |
-| Max Square Area |  Sorting, Longest Consecutive Sequence Pattern| [Leetcode](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/?envType=daily-question&envId=2026-01-15) |
-| Longest Mountain | Two pointer, Dont use For loop , think for while loop and step wise solving| [Leetcode](https://leetcode.com/problems/longest-mountain-in-array/) |
+| Rectangle Area | Inclusion-Exclusion Principle for finding overlapping Area | [Leetcode](https://leetcode.com/problems/rectangle-area/description/) |
+| Max Square Area | Sorting, Longest Consecutive Sequence Pattern | [Leetcode](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/) |
+| Longest Mountain | Two pointer; prefer `while` loops for manual pointer control | [Leetcode](https://leetcode.com/problems/longest-mountain-in-array/) |
 
-###  🟠 Sorting
+### 🟠 Sorting
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Selection sort | (Stable) Relative order not maintained | [Gfg](https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/) |
-| Bubble sort  | Relative order is maintained | [Gfg](https://www.geeksforgeeks.org/dsa/bubble-sort-algorithm/) |
-| Insertion sort | Stable and in-place algo | [Gfg](https://www.geeksforgeeks.org/dsa/insertion-sort-algorithm/) |
-| Counting sort | Non comparative algorithm | [Leetcode](https://leetcode.com/problems/minimum-absolute-difference/?envType=daily-question&envId=2026-01-26) |
+| Selection Sort | Unstable; relative order of equal elements is not maintained | [Gfg](https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/) |
+| Bubble Sort | Stable; relative order is maintained via adjacent swaps | [Gfg](https://www.geeksforgeeks.org/dsa/bubble-sort-algorithm/) |
+| Insertion Sort | Stable and in-place; efficient for small or nearly sorted data | [Gfg](https://www.geeksforgeeks.org/dsa/insertion-sort-algorithm/) |
+| Counting Sort | Non-comparative; $O(N + K)$ time where $K$ is the range | [Leetcode](https://leetcode.com/problems/minimum-absolute-difference/) |
 
-
-### ⚪  Bitwise Operations
+### ⚪ Bitwise Operations
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Min bitwise arr | find the pattern, look at how binary addition workds | [Leetcode](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/description/?envType=daily-question&envId=2026-01-20) |
+| Min Bitwise Array | Pattern recognition; understand binary addition/carry logic | [Leetcode](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/description/) |
 
-
-### 🔵 HashTabe
+### 🔵 Hash Table
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Maxium Square Area | Find all combinations of width in n^2, and use hashtable | [Leetcode](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/description/?envType=daily-question&envId=2026-01-16) |
-
+| Maximum Square Area | Calculate width combinations in $O(N^2)$, use HashSet for $O(1)$ lookup | [Leetcode](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/description/) |
 
 ### 🟣 Set / Multiset
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Divide array into subarray | multiset | [Leetcode](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/?envType=daily-question&envId=2026-02-02) |
-
+| Divide Array | Use `std::multiset` (C++) or similar to track sliding window values | [Leetcode](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/) |
 
 ### 🟠 Binary Search
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Saperate Sqaure 1 | Critical Binary search on the area| [Leetcode](https://leetcode.com/problems/separate-squares-i/description/?envType=daily-question&envId=2026-01-13) |
-
+| Separate Squares | Binary Search on the Answer (searching over a continuous range) | [Leetcode](https://leetcode.com/problems/separate-squares-i/description/) |
 
 ### ⚪ Linked List
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Loop in LL | Fast and slow pointer | [Leetcode](https://leetcode.com/problems/linked-list-cycle/description/) |
-| Position of Loop in LL | Tortoise & Hair algorithm, Fast and slow pointer | [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/description/) |
-
+| Loop Detection | Floyd’s Cycle-Finding Algorithm (Fast & Slow pointers) | [Leetcode](https://leetcode.com/problems/linked-list-cycle/description/) |
+| Cycle Entrance | Tortoise & Hare; mathematical offset to find the start of the loop | [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/description/) |
 
 ### 🟣 Stack
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Maximal Reactangle in 2d array | Use prefix sum,  monotonic stack in histogram | [Leetcode](https://leetcode.com/problems/maximal-rectangle/description/?envType=daily-question&envId=2026-01-11) |
-
+| Maximal Rectangle | Monotonic Stack; process 2D grid as a series of histograms | [Leetcode](https://leetcode.com/problems/maximal-rectangle/description/) |
 
 ### 🟠 DP
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| LCS | Longest Common subseq. find all combinations + dp (similar to take/not take) | [Leetcode](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/solutions/7482069/simple-lcs-finding-by-sumeet_sharma-1-kcva/?envType=daily-question&envId=2026-01-10) |
-| Trapping RainWater | dp, two pointer, stack(level wise water filling) | [Leetcode](https://leetcode.com/problems/trapping-rain-water/submissions/801786287/) |
-
+| LCS | Longest Common Subsequence; DP state transitions (take/not-take) | [Leetcode](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) |
+| Trapping Rainwater | Precompute Prefix/Suffix max, or use Two Pointers/Monotonic Stack | [Leetcode](https://leetcode.com/problems/trapping-rain-water/) |
 
 ### 🔵 Tree
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| LCA | Least Common ancestor BFS - upwords nodes conversion using set and map| [Leetcode](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/?envType=daily-question&envId=2026-01-09) |
-| Range Sum | Segment Tree(4n nodes always)| [Leetcode](https://leetcode.com/problems/range-sum-query-immutable/) |
-
-### ⚪  Trie
-| Pattern | Description | Link |
-| :--- | :--- | :---: |
-| Range Sum | Segment Tree(4n nodes always)| [Leetcode](https://leetcode.com/problems/range-sum-query-immutable/) |
-
+| LCA | Lowest Common Ancestor; path tracing or recursive DFS | [Leetcode](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) |
+| Range Sum Query | Segment Tree ($4N$ nodes) for $O(\log N)$ updates and queries | [Leetcode](https://leetcode.com/problems/range-sum-query-immutable/) |
 
 ### 🟣 Graph
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
-| Rotten Oranges | BFS, thinking is correct, try to use it properly | [Leetcode](https://leetcode.com/problems/rotting-oranges/description/) |
-| 01 Matrix | BFS, array storing {0, 1, 0, -1, 0}, Multi-Source approach, if Min distance , use BFS, alwys try to check if we can start from source or destination at a time | [Leetcode](https://leetcode.com/problems/01-matrix/description/) |
-| Topological Sort | only in DAG, use stack  | [Gfg](https://www.geeksforgeeks.org/dsa/topological-sorting/) |
-| Shortage path in DAG | first use topo sort and then find shortest path  | [Gfg](https://www.geeksforgeeks.org/dsa/shortest-path-for-directed-acyclic-graphs/) |
-| Dijkstras | first use topo sort and then find shortest path  | [Gfg](https://www.geeksforgeeks.org/dsa/shortest-path-for-directed-acyclic-graphs/) |
-
----
+| Rotten Oranges | Multi-source BFS; level-order traversal for shortest time | [Leetcode](https://leetcode.com/problems/rotting-oranges/description/) |
+| 01 Matrix | BFS with multi-source start; uses direction arrays `{0, 1, 0, -1, 0}` | [Leetcode](https://leetcode.com/problems/01-matrix/description/) |
+| Topological Sort | Kahn's Algorithm (BFS) or DFS+Stack; only for DAGs | [Gfg](https://www.geeksforgeeks.org/dsa/topological-sorting/) |
+| Shortest Path (DAG) | Use Topological Sort + Relaxation for $O(V+E)$ efficiency | [Gfg](https://www.geeksforgeeks.org/dsa/shortest-path-for-directed-acyclic-graphs/) |
+| Dijkstra | Greedy BFS using Priority Queue for weighted edges ($O(E \log V)$) | [Gfg](https://www.geeksforgeeks.org/dsa/dijkstras-algorithm-for-adjacency-list-representation/) |
