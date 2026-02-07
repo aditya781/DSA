@@ -2,6 +2,7 @@
 
 A structured collection of common algorithmic patterns grouped by topic. Use this as a reference for complexity limits and problem-solving mental models.
 
+
 ---
 
 ## ⚡ System Constraint Rule of Thumb
