@@ -66,6 +66,7 @@ A structured collection of common algorithmic patterns grouped by topic. Use thi
 | :--- | :--- | :---: |
 | LCS | Longest Common Subsequence; DP state transitions (take/not-take) | [Leetcode](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) |
 | Trapping Rainwater | Precompute Prefix/Suffix max, or use Two Pointers/Monotonic Stack | [Leetcode](https://leetcode.com/problems/trapping-rain-water/) |
+| Champagne Tower | store excess liquid level wise. | [Leetcode](https://leetcode.com/problems/champagne-tower/description/?envType=daily-question&envId=2026-02-14) |
 
 ### 🔵 Tree
 | Pattern | Description | Link |
