@@ -34,6 +34,7 @@ A structured collection of common algorithmic patterns grouped by topic. Use thi
 | Pattern | Description | Link |
 | :--- | :--- | :---: |
 | Min Bitwise Array | Pattern recognition; understand binary addition/carry logic | [Leetcode](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/description/) |
+| Add Binary | Pattern recognition in bits; add one array element at a time, prepending string has o(n) complexity, so avoid it | [Leetcode](https://leetcode.com/problems/add-binary/description/?envType=daily-question&envId=2026-02-15) |
 
 ### 🔵 Hash Table
 | Pattern | Description | Link |
